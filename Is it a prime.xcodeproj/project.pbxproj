@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADAF16B11CF35D2700D985DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAF16B01CF35D2700D985DC /* AppDelegate.swift */; };
+		ADAF16B31CF35D2700D985DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAF16B21CF35D2700D985DC /* ViewController.swift */; };
+		ADAF16B61CF35D2700D985DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAF16B41CF35D2700D985DC /* Main.storyboard */; };
+		ADAF16B81CF35D2700D985DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAF16B71CF35D2700D985DC /* Assets.xcassets */; };
+		ADAF16BB1CF35D2700D985DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAF16B91CF35D2700D985DC /* LaunchScreen.storyboard */; };
+		ADAF16C61CF35D2700D985DC /* Is_it_a_primeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAF16C51CF35D2700D985DC /* Is_it_a_primeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAF16C21CF35D2700D985DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAF16A51CF35D2700D985DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAF16AC1CF35D2700D985DC;
+			remoteInfo = "Is it a prime";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADAF16AD1CF35D2700D985DC /* Is it a prime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Is it a prime.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAF16B01CF35D2700D985DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADAF16B21CF35D2700D985DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADAF16B51CF35D2700D985DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADAF16B71CF35D2700D985DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADAF16BA1CF35D2700D985DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADAF16BC1CF35D2700D985DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAF16C11CF35D2700D985DC /* Is it a primeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Is it a primeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAF16C51CF35D2700D985DC /* Is_it_a_primeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Is_it_a_primeTests.swift; sourceTree = "<group>"; };
+		ADAF16C71CF35D2700D985DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADAF16AA1CF35D2700D985DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAF16BE1CF35D2700D985DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADAF16A41CF35D2700D985DC = {
+			isa = PBXGroup;
+			children = (
+				ADAF16AF1CF35D2700D985DC /* Is it a prime */,
+				ADAF16C41CF35D2700D985DC /* Is it a primeTests */,
+				ADAF16AE1CF35D2700D985DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADAF16AE1CF35D2700D985DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAF16AD1CF35D2700D985DC /* Is it a prime.app */,
+				ADAF16C11CF35D2700D985DC /* Is it a primeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADAF16AF1CF35D2700D985DC /* Is it a prime */ = {
+			isa = PBXGroup;
+			children = (
+				ADAF16B01CF35D2700D985DC /* AppDelegate.swift */,
+				ADAF16B21CF35D2700D985DC /* ViewController.swift */,
+				ADAF16B41CF35D2700D985DC /* Main.storyboard */,
+				ADAF16B71CF35D2700D985DC /* Assets.xcassets */,
+				ADAF16B91CF35D2700D985DC /* LaunchScreen.storyboard */,
+				ADAF16BC1CF35D2700D985DC /* Info.plist */,
+			);
+			path = "Is it a prime";
+			sourceTree = "<group>";
+		};
+		ADAF16C41CF35D2700D985DC /* Is it a primeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAF16C51CF35D2700D985DC /* Is_it_a_primeTests.swift */,
+				ADAF16C71CF35D2700D985DC /* Info.plist */,
+			);
+			path = "Is it a primeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADAF16AC1CF35D2700D985DC /* Is it a prime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAF16CA1CF35D2700D985DC /* Build configuration list for PBXNativeTarget "Is it a prime" */;
+			buildPhases = (
+				ADAF16A91CF35D2700D985DC /* Sources */,
+				ADAF16AA1CF35D2700D985DC /* Frameworks */,
+				ADAF16AB1CF35D2700D985DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Is it a prime";
+			productName = "Is it a prime";
+			productReference = ADAF16AD1CF35D2700D985DC /* Is it a prime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADAF16C01CF35D2700D985DC /* Is it a primeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAF16CD1CF35D2700D985DC /* Build configuration list for PBXNativeTarget "Is it a primeTests" */;
+			buildPhases = (
+				ADAF16BD1CF35D2700D985DC /* Sources */,
+				ADAF16BE1CF35D2700D985DC /* Frameworks */,
+				ADAF16BF1CF35D2700D985DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAF16C31CF35D2700D985DC /* PBXTargetDependency */,
+			);
+			name = "Is it a primeTests";
+			productName = "Is it a primeTests";
+			productReference = ADAF16C11CF35D2700D985DC /* Is it a primeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAF16A51CF35D2700D985DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mn;
+				TargetAttributes = {
+					ADAF16AC1CF35D2700D985DC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					ADAF16C01CF35D2700D985DC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ADAF16AC1CF35D2700D985DC;
+					};
+				};
+			};
+			buildConfigurationList = ADAF16A81CF35D2700D985DC /* Build configuration list for PBXProject "Is it a prime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADAF16A41CF35D2700D985DC;
+			productRefGroup = ADAF16AE1CF35D2700D985DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADAF16AC1CF35D2700D985DC /* Is it a prime */,
+				ADAF16C01CF35D2700D985DC /* Is it a primeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADAF16AB1CF35D2700D985DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAF16BB1CF35D2700D985DC /* LaunchScreen.storyboard in Resources */,
+				ADAF16B81CF35D2700D985DC /* Assets.xcassets in Resources */,
+				ADAF16B61CF35D2700D985DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAF16BF1CF35D2700D985DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADAF16A91CF35D2700D985DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAF16B31CF35D2700D985DC /* ViewController.swift in Sources */,
+				ADAF16B11CF35D2700D985DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAF16BD1CF35D2700D985DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAF16C61CF35D2700D985DC /* Is_it_a_primeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAF16C31CF35D2700D985DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAF16AC1CF35D2700D985DC /* Is it a prime */;
+			targetProxy = ADAF16C21CF35D2700D985DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADAF16B41CF35D2700D985DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAF16B51CF35D2700D985DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADAF16B91CF35D2700D985DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAF16BA1CF35D2700D985DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADAF16C81CF35D2700D985DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADAF16C91CF35D2700D985DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADAF16CB1CF35D2700D985DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Is it a prime/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Is-it-a-prime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADAF16CC1CF35D2700D985DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Is it a prime/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Is-it-a-prime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADAF16CE1CF35D2700D985DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Is it a primeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Is-it-a-primeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Is it a prime.app/Is it a prime";
+			};
+			name = Debug;
+		};
+		ADAF16CF1CF35D2700D985DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Is it a primeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Is-it-a-primeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Is it a prime.app/Is it a prime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADAF16A81CF35D2700D985DC /* Build configuration list for PBXProject "Is it a prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAF16C81CF35D2700D985DC /* Debug */,
+				ADAF16C91CF35D2700D985DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAF16CA1CF35D2700D985DC /* Build configuration list for PBXNativeTarget "Is it a prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAF16CB1CF35D2700D985DC /* Debug */,
+				ADAF16CC1CF35D2700D985DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADAF16CD1CF35D2700D985DC /* Build configuration list for PBXNativeTarget "Is it a primeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAF16CE1CF35D2700D985DC /* Debug */,
+				ADAF16CF1CF35D2700D985DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADAF16A51CF35D2700D985DC /* Project object */;
+}
